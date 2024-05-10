@@ -59,7 +59,7 @@ public:
 
 	//IsEmpty operation: check if the top node
 	bool isEmpty() {
-	
+		return top == NULL; //return true if top pointer is null , indicating an empty stack
 	}
 	
 };
