@@ -66,7 +66,7 @@ public:
 };
 
 int main() {
-	Stack stack;
+	stack stack;
 
 	int choice = 0;
 	int value;
@@ -91,6 +91,14 @@ int main() {
 			}
 			else {
 				cout << "Stack is empty. Cnnot pop." << endl;
+			}
+			break;
+		case 3:
+			if (!stack.isEmpty()) {
+				stack.peek(); // get the value of the top element
+			}
+			else {
+				cout << "Stack is empty. Notop value." << endl;
 			}
 			break;
 		}
