@@ -12,3 +12,7 @@ public:
 	}
 };
 
+// stack class
+class stack {
+
+};
