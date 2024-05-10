@@ -40,6 +40,7 @@ public:
 		}
 		cout << "Popped value : " << top->data << endl;
 		top = top->next; // update the top pointer to the next node
+
 	}
 
 	// peek / top operation : retrive the value of the topmost element without removing it
@@ -61,6 +62,10 @@ public:
 	bool isEmpty() {
 		return top == NULL; //return true if top pointer is null , indicating an empty stack
 	}
-	
+
 };
+
+int main() {
+
+}
 
